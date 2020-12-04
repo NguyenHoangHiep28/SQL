@@ -1,0 +1,3 @@
+GRANT SELECT
+ON Employee
+TO JOHN

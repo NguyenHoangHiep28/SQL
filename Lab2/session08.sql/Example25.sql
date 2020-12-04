@@ -1,0 +1,11 @@
+DECLARE @value AS MONEY = 10.00;
+SET @value += 2.00;
+SELECT @value;
+SET @value -= 2.00;
+SELECT @value;
+SET @value *= 2.00;
+SELECT @value;
+SELECT @value /= 2.00;
+SELECT @value;
+SET @value %= 2.00;
+SELECT @value;

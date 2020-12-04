@@ -1,0 +1,18 @@
+DECLARE @bookingTime datetime2 = '2009-09-08 11:59:11.1234567';
+DECLARE @bookingTime1 datetime2(0) = '2009-09-08 11:59:11.1234567';
+DECLARE @bookingTime2 datetime2(1) = '2009-09-08 11:59:11.1234567';
+DECLARE @bookingTime3 datetime2(2) = '2009-09-08 11:59:11.1234567';
+DECLARE @bookingTime4 datetime2(3) = '2009-09-08 11:59:11.1234567';
+DECLARE @bookingTime5 datetime2(4) = '2009-09-08 11:59:11.1234567';
+DECLARE @bookingTime6 datetime2(5) = '2009-09-08 11:59:11.1234567';
+DECLARE @bookingTime7 datetime2(6) = '2009-09-08 11:59:11.1234567';
+DECLARE @bookingTime8 datetime2(7) = '2009-09-08 11:59:11.1234567';
+SELECT @bookingTime;
+SELECT @bookingTime1;
+SELECT @bookingTime2;
+SELECT @bookingTime3;
+SELECT @bookingTime4;
+SELECT @bookingTime5;
+SELECT @bookingTime6;
+SELECT @bookingTime7;
+SELECT @bookingTime8;
